@@ -34,18 +34,13 @@
 	       <a href="{{site.externalLink}}"><img src="{{site.logo}}" style="width:40%"/></a>
       </div>
     </div> <!-- /row -->
-
-    <div class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div>
-
-    <h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
-
-    {% if site.facebookEventLink %}
+	  
     <div class="row">
-      <div class="col-sm-12 text-center">
-        <a href="{{site.facebookEventLink}}">RSVP on facebook</a>
-      </div>
+    	<h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
     </div>
-    {% endif %}
+	  
+	  
+    <div class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div>
 
     <!-- javascript includes
     ================================================== -->
