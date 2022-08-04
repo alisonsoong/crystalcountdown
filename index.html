@@ -35,15 +35,9 @@
       </div>
     </div> <!-- /row -->
 
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div>
-    </div> <!-- /row -->
+    <div class="col-sm-8 col-sm-offset-2 text-center"><div id="defaultCountdown"></div></div>
 
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
-      </div>
-    </div>
+    <h2 class="background-highlight">{{ site.utc | date: "%A %B %-d, %Y" }}</h2>
 
     {% if site.facebookEventLink %}
     <div class="row">
