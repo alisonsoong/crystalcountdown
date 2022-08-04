@@ -8,7 +8,7 @@ facebookEventLink: #(Optional) if you have a facebook event, put the link here a
 hashtag: "" #(Optional) hashtag for the event, example "#hashtag". must be in quotes.
 colors: #(Optional)
   background: "#FFF" #color of the background of the page
-  primary: "#3FBFBC" #primary color for the page
-  secondary: "#EE4823" #secondary color for the page
+  primary: "#FFF" #primary color for the page
+  secondary: "#FFF" #secondary color for the page
   textcolor: "#0E3D60" #color of the text, which is overlayed on the primary color
 fontfamily: "'Open Sans', sans-serif" #optional
